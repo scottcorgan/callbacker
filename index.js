@@ -1,10 +1,11 @@
 var asArray = require('as-array');
+var noop = function () {};
 
 module.exports = function (args) {
   args = asArray(args);
   var callback = last(args);
   
-  if (typeof callback !== 'function') callback = function () {};
+  if (typeof callback !== 'function') callback = noop;
   
   return {
     callback: callback,
