@@ -1,6 +1,6 @@
 # callbacker
 
-Last argument in a function is always the callback function.
+Parse the last argument in a function as the callback function
 
 ## Install
 

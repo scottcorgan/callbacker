@@ -1,7 +1,7 @@
 {
   "name": "callbacker",
-  "version": "0.1.0",
-  "description": "Parse the last argument in a function is always the callback function",
+  "version": "0.1.1",
+  "description": "Parse the last argument in a function as the callback function",
   "main": "index.js",
   "directories": {
     "test": "test"
